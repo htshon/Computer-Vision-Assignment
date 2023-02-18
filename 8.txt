@@ -1,0 +1,26 @@
+
+Assignment 08 Solutions
+1. Using our own terms and diagrams, explain INCEPTIONNET ARCHITECTURE ?
+ 
+2. Describe the Inception block ?
+ 
+3. What is the DIMENSIONALITY REDUCTION LAYER (1 LAYER CONVOLUTIONAL) ?
+ 
+4. THE IMPACT OF REDUCING DIMENSIONALITY ON NETWORK PERFORMANCE ?
+ 
+5. Mention three components. Style GoogLeNet ?
+ 
+6. Using our own terms and diagrams, explain RESNET ARCHITECTURE ?
+ 
+7. What do Skip Connections entail ?
+ 
+8. What is the definition of a residual Block ?
+ 
+9. How can transfer learning help with problems ?
+ 
+10. What is transfer learning, and how does it work ?
+ 
+11.HOW DO NEURAL NETWORKS LEARN FEATURES? 11. HOW DO NEURAL NETWORKS LEARN FEATURES ?
+ 
+12. WHY IS FINE-TUNING BETTER THAN START-UP TRAINING ?
+ 

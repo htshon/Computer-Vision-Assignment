@@ -1,0 +1,24 @@
+
+Assignment 12 Solutions
+1. Describe the Quick R-CNN architecture ?
+ 
+2. Describe two Fast R-CNN loss functions ?
+ 
+3. Describe the DISABILITIES OF FAST R-CNN ?
+ 
+4. Describe how the area proposal network works ?
+ 
+5. Describe how the RoI pooling layer works ?
+ 
+6. What are fully convolutional networks and how do they work? (FCNs) ?
+ 
+7. What are anchor boxes and how do you use them ?
+ 
+8. Describe the Single-shot Detector's architecture (SSD) ?
+ 
+9. HOW DOES THE SSD NETWORK PREDICT ?
+ 
+10. Explain Multi Scale Detections ?
+ 
+11. What are dilated (or atrous) convolutions ?
+ 

@@ -1,0 +1,38 @@
+
+Assignment 01 Solutions
+1. What exactly is a feature?
+Ans: A feature is a measurable property of the object you’re trying to analyze. In datasets, features appear as columns:
+
+image.png
+
+The image above contains a snippet of data from a public dataset with information about passengers on the ill-fated Titanic maiden voyage. Each feature, or column, represents a measurable piece of data that can be used for analysis: Name, Age, Sex, Fare, and so on. Features are also sometimes referred to as “variables” or “attributes.” Depending on what you’re trying to analyze, the features you include in your dataset can vary widely.
+
+2. For a top edge detector, write out the convolutional kernel matrix.
+ 
+3. Describe the mathematical operation that a 3x3 kernel performs on a single pixel in an image.
+ 
+4. What is the significance of a convolutional kernel added to a 3x3 matrix of zeroes?
+ 
+5. What exactly is padding?
+Ans: Padding is a term relevant to convolutional neural networks as it refers to the amount of pixels added to an image when it is being processed by the kernel of a CNN. For example, if the padding in a CNN is set to zero, then every pixel value that is added will be of value zero. If, however, the zero padding is set to one, there will be a one pixel border added to the image with a pixel value of zero.
+
+image.png
+
+Padding works by extending the area of which a convolutional neural network processes an image. The kernel is the neural networks filter which moves across the image, scanning each pixel and converting the data into a smaller, or sometimes larger, format. In order to assist the kernel with processing the image, padding is added to the frame of the image to allow for more space for the kernel to cover the image. Adding padding to an image processed by a CNN allows for more accurate analysis of images.
+
+6. What is the concept of stride?
+Ans: Stride is a component of convolutional neural networks, or neural networks tuned for the compression of images and video data. Stride is a parameter of the neural network's filter that modifies the amount of movement over the image or video. For example, if a neural network's stride is set to 1, the filter will move one pixel, or unit, at a time. The size of the filter affects the encoded output volume, so stride is often set to a whole integer, rather than a fraction or decimal.
+
+image.png
+
+Imagine a convolutional neural network is taking an image and analyzing the content. If the filter size is 3x3 pixels, the contained nine pixels will be converted down to 1 pixel in the output layer. Naturally, as the stride, or movement, is increased, the resulting output will be smaller. Stride is a parameter that works in conjunction with padding, the feature that adds blank, or empty pixels to the frame of the image to allow for a minimized reduction of size in the output layer. Roughly, it is a way of increasing the size of an image, to counteract the fact that stride reduces the size. Padding and stride are the foundational parameters of any convolutional neural network.
+
+image-2.png
+
+7. What are the shapes of PyTorch's 2D convolution's input and weight parameters?
+ 
+8. What exactly is a channel?
+Ans: Just like any other layer, a convolutional layer receives input, transforms the input in some way, and then outputs the transformed input to the next layer. The inputs to convolutional layers are called input channels, and the outputs are called output channels.
+
+9.Explain relationship between matrix multiplication and a convolution?
+ 
